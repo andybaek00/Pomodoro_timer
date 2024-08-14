@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
         start.disabled = true;
         startTimer();
     }
-  
+    alert("!!Do not click reset button when the alarm is ringing!!")
     start.addEventListener("click", preventStart);
     stop.addEventListener("click", reset);
   });
